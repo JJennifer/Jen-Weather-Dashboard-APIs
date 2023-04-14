@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    background-color: #FDE7E8;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.searchContainer {
+    margin: 15px;
+}
+
+.searchBtn {
+    padding-top:10px;
+}
+
+.btn {
+    background-color: #FDE7E8;
+    color: black;
+}
+
+.todayWeather {
+    border: black solid;
+}
