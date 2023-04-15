@@ -13,7 +13,7 @@ var futureDays4 = document.getElementById("future4")
 
 var searchButton = document.querySelector(".searchContainer");
 
-console.log(textInput);
+// console.log(textInput);
 
 // Seach button 
 searchButton.addEventListener("submit", function(event) {
@@ -171,7 +171,7 @@ searchButton.addEventListener("submit", function(event) {
         var humidity = document.createElement("p");
         humidity.textContent = "Humidity: " + data.list[39].main.humidity;
         todayForecast.appendChild(humidity);
-
+        
         var windSpeed = document.createElement("p");
         windSpeed.textContent = "Wind-Speed: " + data.list[39].wind.speed;
         todayForecast.appendChild(windSpeed);
