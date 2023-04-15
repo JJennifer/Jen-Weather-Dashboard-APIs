@@ -1,7 +1,7 @@
 # 06 What's the weather?
 
 ## Description
-
+In this application the webpage meets accessibility standards. I have fetched data from a weather website to display on my website by using functions and fetch. When you first open the webiste you will not see any information unless you seach a city. You can search a city by entering the name in the search box and clicking on the button search. You should then be presented with the current day, city name, temperature, humidity and wind speed. In additon, the forecast for that same city will display below for the next 5 days. The city's name you search is saved in local storage. 
 
 ## User Story
 
