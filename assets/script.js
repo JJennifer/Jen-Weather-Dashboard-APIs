@@ -15,6 +15,7 @@ var searchButton = document.querySelector(".searchContainer");
 
 console.log(textInput);
 
+// Seach button 
 searchButton.addEventListener("submit", function(event) {
     event.preventDefault();
     var city = textInput.value;
