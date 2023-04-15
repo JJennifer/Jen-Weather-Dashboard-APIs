@@ -27,14 +27,12 @@ searchButton.addEventListener("submit", function(event) {
     })
     .then(function(data){
         console.log(data);
-        // console.log(data.city.name);
-        // console.log(data.list[5].main.temp);
-        // console.log(data.list[5].main.humidity);
-        // console.log(data.list[5].wind.speed);
         
         var todayForecast = document.createElement("div");
         todayForecast.textContent = data.city.name;
         days.appendChild(todayForecast);
+
+        localStorage.setItem("City",JSON.stringify(city));
 
         var date = document.createElement("p");
         date.textContent = "Date & Time: " + data.list[0].dt_txt;
