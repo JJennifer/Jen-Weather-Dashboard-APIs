@@ -29,7 +29,7 @@ THEN I am again presented with current and future conditions for that city
 
 The following image shows the web application's appearance:
 
-![The weather app includes a search option, a five-day forecast and current weather conditions for Atlanta.](./assets/jjennifer.github.io_Jen-Weather-Dashboard-APIs_.png)
+![The weather app includes a search option, a five-day forecast and current weather conditions for Atlanta.](./assets/WeatherWebsiteImage.png)
 
 ## Deploy Application
 
