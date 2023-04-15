@@ -19,6 +19,22 @@ h1 {
 }
 
 .todayWeather,
-.forecast {
+#future1,
+#future3 {
     border: black solid;
-}
+    text-align:center;
+    background-color: antiquewhite;
+ }
+
+ p{
+    margin-top: 10px;
+ }
+
+ #future,
+ #future2,
+ #future4 {
+    border: black solid;
+    text-align: center;
+    background-color: #FDE7E8;
+    
+ }
