@@ -18,6 +18,7 @@ h1 {
     color: black;
 }
 
-.todayWeather {
+.todayWeather,
+.forecast {
     border: black solid;
 }

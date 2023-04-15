@@ -10,26 +10,35 @@
     <title>Weather</title>
 </head>
 <body>
+    <!-- Title on page -->
     <header >
         <h1>Weather Information</h1>
     </header>
+    
     <main class="container">
+        <!-- top of page the search box and today's weather -->
         <div class="row">
         <div class="col-md-2">
             <form class="searchContainer">
                 <div class="city-entry">
-                    <input type="text" class="form-control" id="autoSizingInput" placeholder="City Name">
+                    <input type="text" class="text form-control" id="autoSizingInput" placeholder="City Name">
                 </div>
-                <div class="searchBtn">
-                     <button type="submit" class="btn btn-primary">Search</button>
+                <div>
+                     <button type="submit" class="searchButton btn btn-primary">Search</button>
                 </div>
              </form>
-             <div class="history">
+             
+        </div>
+            <div class="todayWeather col-md-10"></div>
+        </div>
+        <!-- History list and 5 day forecast portion on page -->
+        <div class="row">
+            <div class="history col-md-2">
                 <button>History</button>
              </div>
-        </div>
-        <div class="todayWeather col-md-10"></div>
+            <div class="forecast col-md-10"></div>
         </div>
     </main>
 </body>
+          <script src="./assets/script.js"></script>
 </html>
